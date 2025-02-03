@@ -1,0 +1,50 @@
+/* Réinitialisation de la marge et de la hauteur pour le body et html */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Pour que le footer reste en bas */
+.content {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.main-content {
+    flex: 1;
+  }
+  
+  /* Style du footer */
+footer {
+    background-color: #233DFF; /* Couleur de fond */
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+  }
+  
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+footer .social-icons a:hover {
+    color: #ccc;
+  }
+  
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+  }
+  
+.email-link {
+    color: white; /* Couleur par défaut en blanc */
+    text-decoration: none; /* Supprime le soulignement */
+    transition: color 0.3s ease; /* Animation fluide du changement de couleur */
+  }
+  
+.email-link:hover {
+    color: black; /* Change la couleur en noir au survol */
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+  }

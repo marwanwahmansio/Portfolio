@@ -1,0 +1,24 @@
+img {
+    width: 5%; /* Le logo aura 50% de la largeur de son parent */
+    height: auto; /* Maintient la proportion */
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #233DFF; 
+  }
+  
+  /* Centrer les liens dans la navbar */
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+  }
+  
+  
