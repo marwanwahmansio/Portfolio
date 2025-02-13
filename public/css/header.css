@@ -21,4 +21,36 @@ img {
     font-weight: bold;
   }
   
-  
+header{
+  position: sticky;
+  z-index: 1000; /* Pour s'assurer qu'il reste au-dessus des autres éléments */
+  top: 0;
+  width: 100%;
+} 
+
+/* Gestion du menu responsive */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Passer la navbar en colonne pour les petits écrans */
+  }
+
+  img {
+    width: 30%; /* Logo plus grand sur les petits écrans */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Aligner les liens verticalement */
+    width: 100%; /* S'assurer que le menu occupe toute la largeur */
+  }
+
+  .navbar-nav .nav-link {
+    text-align: center; /* Centrer les liens */
+    padding: 1rem 0; /* Plus de padding pour chaque lien */
+  }
+
+  .navbar-toggler {
+    margin-left: center; /* Aligner le bouton hamburger à droite */
+  }
+ 
+}
+

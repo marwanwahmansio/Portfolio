@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CVController extends Controller
 {
-    public function cv()  
+    public function index()  
     {
         return view('cv');
     }

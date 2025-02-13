@@ -19,7 +19,6 @@
    
 
 </head>
-
 <body>
 
     <?php echo $__env->make('partials.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> 
@@ -31,5 +30,4 @@
     <?php echo $__env->make('partials.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?> 
 
 </body>
-
 </html><?php /**PATH /var/www/html/resources/views/layout/app.blade.php ENDPATH**/ ?>

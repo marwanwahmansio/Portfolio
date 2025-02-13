@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CompetencesController extends Controller
 {
-    public function competences()  
+    public function index()  
     {
         return view('competences');
     }

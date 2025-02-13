@@ -6,7 +6,15 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Http\\Controllers\\CVController' => $baseDir . '/app/Http/Controllers/CVController.php',
+    'App\\Http\\Controllers\\CompetencesController' => $baseDir . '/app/Http/Controllers/CompetencesController.php',
+    'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\HomeController' => $baseDir . '/app/Http/Controllers/HomeController.php',
+    'App\\Http\\Controllers\\ParcoursController' => $baseDir . '/app/Http/Controllers/ParcoursController.php',
+    'App\\Http\\Controllers\\SnakeController' => $baseDir . '/app/Http/Controllers/SnakeController.php',
+    'App\\Http\\Controllers\\StageController' => $baseDir . '/app/Http/Controllers/StageController.php',
+    'App\\Http\\Controllers\\VeilleController' => $baseDir . '/app/Http/Controllers/VeilleController.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',

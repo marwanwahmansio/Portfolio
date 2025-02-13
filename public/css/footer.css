@@ -21,6 +21,9 @@ footer {
     color: white;
     padding: 20px 0;
     width: 100%;
+    position: sticky;  /* Rendre le footer collant */
+    bottom: 0;         /* Le coller au bas de la fenêtre */
+    z-index: 100;      /* Assure que le footer reste au-dessus du reste du contenu */
   }
   
 footer .social-icons a {

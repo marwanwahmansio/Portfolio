@@ -1,0 +1,40 @@
+.btn-primary {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #233DFF;
+    color: white;
+    border: 2px solid;
+    border: 2px solid #233DFF;    
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #233DFF; 
+}
+
+
+@media (max-width: 768px) {
+    .btn-primary {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+}
+
+.cv {
+    height : 100% ; /* Prend toute la hauteur de l'écran */
+    display : flex;
+    flex-direction : column; 
+    justify-content : center;
+    align-items : center;
+    background-color: #ffffff;
+    gap: 10px; 
+}
+
+embed {
+    width: 80%;
+    height: 130vh;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+

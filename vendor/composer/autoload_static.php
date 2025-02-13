@@ -516,7 +516,15 @@ class ComposerStaticInit626b9e7ddd47fb7eff9aaa53cce0c9ad
     );
 
     public static $classMap = array (
+        'App\\Http\\Controllers\\CVController' => __DIR__ . '/../..' . '/app/Http/Controllers/CVController.php',
+        'App\\Http\\Controllers\\CompetencesController' => __DIR__ . '/../..' . '/app/Http/Controllers/CompetencesController.php',
+        'App\\Http\\Controllers\\ContactController' => __DIR__ . '/../..' . '/app/Http/Controllers/ContactController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\HomeController' => __DIR__ . '/../..' . '/app/Http/Controllers/HomeController.php',
+        'App\\Http\\Controllers\\ParcoursController' => __DIR__ . '/../..' . '/app/Http/Controllers/ParcoursController.php',
+        'App\\Http\\Controllers\\SnakeController' => __DIR__ . '/../..' . '/app/Http/Controllers/SnakeController.php',
+        'App\\Http\\Controllers\\StageController' => __DIR__ . '/../..' . '/app/Http/Controllers/StageController.php',
+        'App\\Http\\Controllers\\VeilleController' => __DIR__ . '/../..' . '/app/Http/Controllers/VeilleController.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',

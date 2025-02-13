@@ -1,0 +1,67 @@
+form {
+    background-color: #233BFF; 
+    color: white; 
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 100px auto 0 auto; /* Ajoute une marge en haut pour descendre */
+    font-family: Arial, sans-serif;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: white; 
+}
+
+form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #233BFF; 
+    background-color: white; /* Fond des champs en blanc */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form .form-control:focus {
+    border-color: #fff; 
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5); 
+    outline: none;
+}
+
+form .form-row .form-group {
+    flex: 1;
+}
+
+form .btn {
+    background-color: white; 
+    color: #233BFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    margin: 0 auto; 
+}
+
+form.btn:hover {
+    background-color: #233BFF; 
+    color: white; 
+}
+
+@media (max-width: 576px) {
+    form .form-row {
+        flex-direction: column;
+    }
+    form .form-group {
+        margin-bottom: 20px;
+    }
+}
+

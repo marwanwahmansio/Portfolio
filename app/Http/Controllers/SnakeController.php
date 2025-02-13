@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class SnakeController extends Controller
 {
-    public function snake()  
+    public function index()  
     {
         return view('snake');
     }
